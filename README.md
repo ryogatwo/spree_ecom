@@ -146,7 +146,7 @@ verify install
 ruby --version
 ```
 
-## install docker engine 
+## install docker engine and docker-desktop
 
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose docker-desktop
