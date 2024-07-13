@@ -158,9 +158,11 @@ verify install
 sudo docker run hello-world
 ```
 
-## clone your repo (see top web link for howto)
+## create your repo own cloned repo 
 
-setup using my cloned repo
+https://docs.spreecommerce.org/developer/getting-started/quickstart#creating-your-spree-repository
+
+download using my cloned repo 
 
 ```bash
 git clone https://github.com/ryogatwo/spree_ecom
