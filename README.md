@@ -78,12 +78,12 @@ LoadError: Could not open library 'vips.so.42'
 
 Please check that libvips is installed with `vips -v`, and if it is not installed, follow [installation instructions here](https://www.libvips.org/install.html).
 
-
-
+-------------------------------------------
+-------------------------------------------
 -------------------------------------------
 
-
 ### My notes on installing ###
+
 ** install spreecommerce on ubuntu Ubuntu 22.04.4 LTS x86_64 **
 
 (from: https://docs.spreecommerce.org/developer/getting-started/quickstart#setting-up-your-development-environment)
