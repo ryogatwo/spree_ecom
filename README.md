@@ -1,3 +1,9 @@
+# SEE MY NOTES BELOW FOR INSTALL
+--------------------------
+--------------------------
+--------------------------
+
+
 # Spree Starter
 
 This is a starter kit for [Spree Commerce](https://spreecommerce.org) - the open-source e-commerce platform for Rails. It is a great starting point for any Rails developer to quickly build an e-commerce store.
