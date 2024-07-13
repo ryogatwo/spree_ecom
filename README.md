@@ -98,13 +98,13 @@ Please check that libvips is installed with `vips -v`, and if it is not installe
 ## optional network tools 
 
 ```bash
-sudo apt-get install cockpit net-tools btop neofetch network-manager
+sudo apt-get install cockpit net-tools btop neofetch console-conf
 ```
 
 to modify network settings (static ip, etc.)
 
 ```bash
-sudo nmtui
+sudo console-conf
 ```
 
 system info
