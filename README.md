@@ -121,9 +121,6 @@ convert -version
 ```bash
 sudo apt-get install ruby-full ruby-bundler ruby-railties rbenv
 ```
-```bash
-ruby --version
-```
 
 ```bash
 sudo gem install fileutils
@@ -137,6 +134,10 @@ sudo gem install bundler
 sudo gem install rails 
 ```
 
+### test if ruby installed
+```bash
+ruby --version
+```
 
 ## install docker engine 
 
