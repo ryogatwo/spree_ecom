@@ -105,7 +105,7 @@ sudo apt-get install cockpit net-tools btop neofetch
 ## install dependencies 
 
 ```bash
-sudo apt-get install software-properties-common libyaml-dev libpq-dev nodejs libvips libvips-tools git-all
+sudo apt-get install software-properties-common libyaml-dev libpq-dev nodejs libvips libvips-tools git
 ```
 
 
