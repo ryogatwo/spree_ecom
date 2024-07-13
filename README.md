@@ -82,36 +82,36 @@ Please check that libvips is installed with `vips -v`, and if it is not installe
 -------------------------------------------
 -------------------------------------------
 
-### My notes on installing ###
+# My notes on installing 
 
 ** install spreecommerce on ubuntu Ubuntu 22.04.4 LTS x86_64 **
 
 (from: https://docs.spreecommerce.org/developer/getting-started/quickstart#setting-up-your-development-environment)
 
 
-### optional network tools ###
+## optional network tools 
 
 sudo apt-get install cockpit net-tools btop neofetch
 
 
 
-### install dependencies ###
+## install dependencies 
 
 sudo apt-get install software-properties-common libyaml-dev libpq-dev nodejs libvips libvips-tools
 
 
 
-### install imagemagick  ###
+## install imagemagick 
 
 sudo apt-get install imagemagick libmagickwand-dev
 
-# test with
+### test with
 
 convert -version
 
 
 
-### install ruby ###
+## install ruby 
 
 sudo apt-get install ruby-full ruby-bundler ruby-railties rbenv
 
@@ -119,53 +119,53 @@ ruby --version
 
 sudo gem install fileutils
 
-# sudo gem install rails   !!!! dont think this is needed !!!
+### sudo gem install rails   !!!! dont think this is needed !!!
 
 sudo gem install bundler
 
 
 
-### install docker engine ###
+## install docker engine 
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose docker-desktop
 
-# test with
+### test with
 
 sudo docker run hello-world
 
 
 
-### clone your repo (see top web link for howto) ###
+## clone your repo (see top web link for howto)
 
-# setup using my cloned repo
+### setup using my cloned repo
 
 git clone https://github.com/ryogatwo/spree_ecom
 
-# go into dir just dowloaded from git
+### go into dir just dowloaded from git
 
 cd ~/spree_ecom/
 
 ruby --version
 
-# edit file 
+### edit file 
 
 nano .ruby-version       (change in file to 3.0.2 or what shows up in version above and save)
 
-# install spree-ecom
+## install spree-ecom
 
 sudo ./bin/setup
 
-# add sample data to spree  (optional)
+### add sample data to spree  (optional)
 
 sudo rake spree_sample:load
 
-# startup spree
+### startup spree
 
 sudo ./bin/rails s --binding=0.0.0.0
 
 
 
-### test ###
+# test
 
 http://localhost:3000/admin
 
