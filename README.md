@@ -107,6 +107,10 @@ to modify network settings (static ip, etc.)
 sudo nmtui
 ```
 
+system info
+```bash
+neofetch
+```
 
 ## install dependencies 
 
