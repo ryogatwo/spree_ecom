@@ -135,6 +135,7 @@ sudo gem install rails
 ```
 
 ### test if ruby installed
+
 ```bash
 ruby --version
 ```
@@ -150,7 +151,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```bash
 sudo docker run hello-world
 ```
-
 
 ## clone your repo (see top web link for howto)
 
@@ -168,10 +168,9 @@ cd ~/spree_ecom/
 ```bash
 ruby --version
 ```
-### edit file 
-
+### edit file (change in file to 3.0.2 or what shows up in version above and save)
 ```bash
-nano .ruby-version       (change in file to 3.0.2 or what shows up in version above and save)
+nano .ruby-version       
 ```
 
 ## install spree-ecom
