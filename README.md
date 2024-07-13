@@ -91,84 +91,110 @@ Please check that libvips is installed with `vips -v`, and if it is not installe
 
 ## optional network tools 
 
+```bash
 sudo apt-get install cockpit net-tools btop neofetch
-
+```
 
 
 ## install dependencies 
 
+```bash
 sudo apt-get install software-properties-common libyaml-dev libpq-dev nodejs libvips libvips-tools
-
+```
 
 
 ## install imagemagick 
 
+```bash
 sudo apt-get install imagemagick libmagickwand-dev
+```
 
 ### test with
 
+```bash
 convert -version
-
+```
 
 
 ## install ruby 
 
+```bash
 sudo apt-get install ruby-full ruby-bundler ruby-railties rbenv
-
+```
+```bash
 ruby --version
+```
 
+```bash
 sudo gem install fileutils
+```
 
-### sudo gem install rails   !!!! dont think this is needed !!!
-
+```bash
 sudo gem install bundler
+```
 
+```bash
+sudo gem install rails 
+```
 
 
 ## install docker engine 
 
+```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose docker-desktop
+```
 
 ### test with
 
+```bash
 sudo docker run hello-world
-
+```
 
 
 ## clone your repo (see top web link for howto)
 
 ### setup using my cloned repo
 
+```bash
 git clone https://github.com/ryogatwo/spree_ecom
+```
 
 ### go into dir just dowloaded from git
 
+```bash
 cd ~/spree_ecom/
-
+```
+```bash
 ruby --version
-
+```
 ### edit file 
 
+```bash
 nano .ruby-version       (change in file to 3.0.2 or what shows up in version above and save)
+```
 
 ## install spree-ecom
 
+```bash
 sudo ./bin/setup
+```
 
 ### add sample data to spree  (optional)
 
+```bash
 sudo rake spree_sample:load
+```
 
 ### startup spree
 
+```bash
 sudo ./bin/rails s --binding=0.0.0.0
-
+```
 
 
 # test
 
 http://localhost:3000/admin
-
 
 (if used defaults)
 user (admin) = spree@example.com
