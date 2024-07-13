@@ -160,7 +160,7 @@ sudo docker run hello-world
 
 ## create your repo own cloned repo 
 
-https://docs.spreecommerce.org/developer/getting-started/quickstart#creating-your-spree-repository
+goto this link on how to:  https://docs.spreecommerce.org/developer/getting-started/quickstart#creating-your-spree-repository
 
 download using my cloned repo 
 
