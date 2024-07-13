@@ -115,7 +115,7 @@ sudo apt-get install software-properties-common libyaml-dev libpq-dev nodejs lib
 sudo apt-get install imagemagick libmagickwand-dev
 ```
 
-### test with
+verify install
 
 ```bash
 convert -version
@@ -140,7 +140,7 @@ sudo gem install bundler
 sudo gem install rails 
 ```
 
-### test if ruby installed
+verify install
 
 ```bash
 ruby --version
@@ -152,7 +152,7 @@ ruby --version
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose docker-desktop
 ```
 
-### test with
+verify install
 
 ```bash
 sudo docker run hello-world
@@ -160,13 +160,13 @@ sudo docker run hello-world
 
 ## clone your repo (see top web link for howto)
 
-### setup using my cloned repo
+setup using my cloned repo
 
 ```bash
 git clone https://github.com/ryogatwo/spree_ecom
 ```
 
-### go into dir just dowloaded from git
+go into dir just dowloaded from git
 
 ```bash
 cd ~/spree_ecom/
@@ -174,7 +174,8 @@ cd ~/spree_ecom/
 ```bash
 ruby --version
 ```
-### edit file (change in file to 3.0.2 or what shows up in version above and save)
+edit file (change in file to 3.0.2 or what shows up in version above and save)
+
 ```bash
 nano .ruby-version       
 ```
@@ -185,7 +186,7 @@ nano .ruby-version
 sudo ./bin/setup
 ```
 
-### add sample data to spree  (optional)
+add sample data to spree  (optional)
 
 ```bash
 sudo rake spree_sample:load
