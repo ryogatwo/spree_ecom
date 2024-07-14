@@ -147,7 +147,11 @@ sudo gem install bundler
 ```
 
 ```bash
-sudo gem install rails 
+sudo gem install rails
+```
+
+```bash
+sudo gem install rmagick
 ```
 
 verify install
