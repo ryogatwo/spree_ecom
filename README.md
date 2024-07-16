@@ -104,13 +104,14 @@ sudo touch /etc/cloud/cloud-init.disabled
 ```
 
 ```bash
-sudo apt-get install cockpit net-tools btop neofetch console-conf
+sudo apt-get install cockpit net-tools btop neofetch
 ```
 
 to modify network settings (static ip, etc.)
 
 ```bash
-sudo console-conf
+...
+
 ```
 
 system info
