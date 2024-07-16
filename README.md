@@ -97,6 +97,12 @@ Please check that libvips is installed with `vips -v`, and if it is not installe
 
 ## optional network tools 
 
+disable Cloud-Init 
+
+```bash
+sudo touch /etc/cloud/cloud-init.disabled
+```
+
 ```bash
 sudo apt-get install cockpit net-tools btop neofetch console-conf
 ```
