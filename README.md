@@ -103,18 +103,18 @@ disable Cloud-Init
 sudo touch /etc/cloud/cloud-init.disabled
 ```
 
+network tools
+
 ```bash
 sudo apt-get install cockpit net-tools btop neofetch
 ```
 
-to modify network settings (static ip, etc.)
+to modify network settings (static ip, etc.) see:
 
-```bash
-...
-
-```
+https://linuxconfig.org/setting-a-static-ip-address-in-ubuntu-24-04-via-the-command-line
 
 system info
+
 ```bash
 neofetch
 ```
