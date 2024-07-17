@@ -178,8 +178,9 @@ sudo docker run hello-world
 
 ### setup gnome for docker-desktop
 
+```bash
 sudo apt install gnome-terminal
-
+```
 
 ### setup for docker-desktop
 
