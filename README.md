@@ -195,7 +195,7 @@ wget https://desktop.docker.com/linux/main/amd64/157355/docker-desktop-amd64.deb
 sudo apt-get update
 ```
 ```bash
-$ sudo apt-get install ./docker-desktop-amd64.deb
+sudo apt-get install ./docker-desktop-amd64.deb
 ```
 ```bash
 systemctl --user start docker-desktop
