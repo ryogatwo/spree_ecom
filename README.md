@@ -258,6 +258,17 @@ verify install
 ruby --version
 ```
 
+used for ruby on rails
+
+```bash
+sudo apt-get install sqlite3
+```
+
+test
+
+```bash
+sqlite3 --version
+```
 
 ## * create your repo own cloned repo 
 
@@ -275,7 +286,7 @@ go into dir just dowloaded from git
 cd ~/spree_ecom/
 ```
 ```bash
-ruby --version
+rails --version
 ```
 edit file (change in file to 3.0.2 or what shows up in version above and save)
 
@@ -283,7 +294,15 @@ edit file (change in file to 3.0.2 or what shows up in version above and save)
 nano .ruby-version       
 ```
 
+note:
+installed ---- rails 7.1.3.4
+installed ---- ruby 3.0.2p107
+
 ## * install spree-ecom
+
+```bash
+sudo bundle install
+```
 
 ```bash
 sudo ./bin/setup
