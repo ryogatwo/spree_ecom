@@ -128,7 +128,7 @@ sudo apt-get install software-properties-common libyaml-dev libpq-dev nodejs lib
 
 ## install docker engine
 
-# Add Docker's official GPG key:
+### Add Docker's official GPG key:
 
 ```bash
 sudo apt-get update
@@ -146,7 +146,7 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
-# Add the repository to Apt sources:
+### Add the repository to Apt sources:
 
 ```bash
 echo \
@@ -176,12 +176,12 @@ sudo docker run hello-world
 
 ## install docker-desktop
 
-# setup gnome for docker-desktop
+### setup gnome for docker-desktop
 
 sudo apt install gnome-terminal
 
 
-# setup for docker-desktop
+### setup for docker-desktop
 
 The latest Ubuntu 24.04 LTS is not yet supported on docker-desktop
 
@@ -209,7 +209,7 @@ N: Download is performed unsandboxed as root, as file '/home/user/Downloads/dock
 couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
 
 
-# enable Docker Desktop to start on sign in,
+### enable Docker Desktop to start on sign in,
 
 ```bash
 systemctl --user enable docker-desktop
