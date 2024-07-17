@@ -90,7 +90,7 @@ Please check that libvips is installed with `vips -v`, and if it is not installe
 
 # MY NOTES ON INSTALLING
 
-** install spreecommerce on ubuntu  [ubuntu-24.04-live-server-amd64.iso]  **
+** install spreecommerce on ubuntu  [ubuntu-22.04-live-server-amd64.iso]  **
 
 (from: https://docs.spreecommerce.org/developer/getting-started/quickstart#setting-up-your-development-environment)
 
