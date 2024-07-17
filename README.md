@@ -90,7 +90,7 @@ Please check that libvips is installed with `vips -v`, and if it is not installe
 
 # MY NOTES ON INSTALLING
 
-** install spreecommerce on ubuntu  [ubuntu-22.04-live-server-amd64.iso]  **
+** install spreecommerce on ubuntu  [ubuntu-22.04.2-live-server-amd64.iso]  **
 
 (from: https://docs.spreecommerce.org/developer/getting-started/quickstart#setting-up-your-development-environment)
 
@@ -117,6 +117,13 @@ system info
 
 ```bash
 neofetch
+```
+
+```bash
+sudo snap install ponysay
+```
+```bash
+export PATH=$PATH:/snap/bin
 ```
 
 ## * install dependencies 
@@ -333,8 +340,9 @@ pass = spree123
 http://localhost:3000/
 
 
-
-
+```bash
+ponysay --pony trixie  'Ta DA !'
+```
 
 
 
