@@ -88,14 +88,14 @@ Please check that libvips is installed with `vips -v`, and if it is not installe
 -------------------------------------------
 -------------------------------------------
 
-# My notes on installing 
+# MY NOTES ON INSTALLING
 
 ** install spreecommerce on ubuntu  [ubuntu-24.04-live-server-amd64.iso]  **
 
 (from: https://docs.spreecommerce.org/developer/getting-started/quickstart#setting-up-your-development-environment)
 
 
-## optional network tools 
+## * optional network tools 
 
 disable Cloud-Init 
 
@@ -119,14 +119,14 @@ system info
 neofetch
 ```
 
-## install dependencies 
+## * install dependencies 
 
 ```bash
 sudo apt-get install software-properties-common libyaml-dev libpq-dev nodejs libvips libvips-tools git nano
 ```
 
 
-## install docker engine
+## * install docker engine
 
 ### Add Docker's official GPG key:
 
@@ -162,7 +162,7 @@ sudo apt-get update
 should show download.docker.com in the list from the command above
 
 
-## install docker
+## * install docker
 
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose
@@ -174,7 +174,7 @@ verify install
 sudo docker run hello-world
 ```
 
-## install docker-desktop
+## * install docker-desktop
 
 ### setup gnome for docker-desktop
 
@@ -216,7 +216,7 @@ systemctl --user enable docker-desktop
 ```
 
 
-## install imagemagick 
+## * install imagemagick 
 
 ```bash
 sudo apt-get install imagemagick libmagickwand-dev
@@ -229,7 +229,7 @@ convert -version
 ```
 
 
-## install ruby 
+## * install ruby 
 
 ```bash
 sudo apt-get install ruby-full ruby-bundler ruby-railties rbenv
@@ -258,11 +258,11 @@ ruby --version
 ```
 
 
-## create your repo own cloned repo 
+## * create your repo own cloned repo 
 
 goto this link on how to:  https://docs.spreecommerce.org/developer/getting-started/quickstart#creating-your-spree-repository
 
-download using my cloned repo 
+download using my cloned repo :
 
 ```bash
 git clone https://github.com/ryogatwo/spree_ecom
@@ -282,7 +282,7 @@ edit file (change in file to 3.0.2 or what shows up in version above and save)
 nano .ruby-version       
 ```
 
-## install spree-ecom
+## * install spree-ecom
 
 ```bash
 sudo ./bin/setup
