@@ -330,7 +330,7 @@ sudo ./bin/rails s --binding=0.0.0.0
 ```
 
 
-# test
+## * test
 
 http://localhost:3000/admin
 
