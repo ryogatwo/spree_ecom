@@ -105,7 +105,7 @@ ___
 sudo touch /etc/cloud/cloud-init.disabled
 ```
 
->network tools
+> network tools
 
 ```bash
 sudo apt-get install cockpit net-tools btop neofetch
@@ -176,7 +176,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose
 ```
 
-verify install
+> verify install
 
 ```bash
 sudo docker run hello-world
@@ -192,9 +192,9 @@ sudo apt install gnome-terminal
 
 ### setup for docker-desktop
 
-The latest Ubuntu 24.04 LTS is not yet supported on docker-desktop
-
-(from :https://docs.docker.com/desktop/install/ubuntu/)
+> The latest Ubuntu 24.04 LTS is not yet supported on docker-desktop
+>
+> (from :https://docs.docker.com/desktop/install/ubuntu/)
 
 ```bash
 wget https://desktop.docker.com/linux/main/amd64/157355/docker-desktop-amd64.deb
@@ -302,9 +302,10 @@ rails --version
 nano .ruby-version       
 ```
 
-note: <br>
-- installed ---- rails 7.1.3.4 <br>
-- installed ---- ruby 3.0.2p107 <br>
+>note: <br>
+>
+> - installed ---- rails 7.1.3.4 <br>
+> - installed ---- ruby 3.0.2p107 <br>
 
 ## * install spree-ecom
 
