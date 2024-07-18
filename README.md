@@ -1,7 +1,8 @@
 # SEE MY NOTES BELOW FOR INSTALL
---------------------------
---------------------------
---------------------------
+
+---
+---
+---
 
 
 # Spree Starter
@@ -84,9 +85,10 @@ LoadError: Could not open library 'vips.so.42'
 
 Please check that libvips is installed with `vips -v`, and if it is not installed, follow [installation instructions here](https://www.libvips.org/install.html).
 
--------------------------------------------
--------------------------------------------
--------------------------------------------
+___
+___
+___
+
 
 # MY NOTES ON INSTALLING
 
@@ -97,23 +99,22 @@ Please check that libvips is installed with `vips -v`, and if it is not installe
 
 ## * optional network tools 
 
-disable Cloud-Init 
+>disable Cloud-Init 
 
 ```bash
 sudo touch /etc/cloud/cloud-init.disabled
 ```
 
-network tools
+>network tools
 
 ```bash
 sudo apt-get install cockpit net-tools btop neofetch
 ```
 
-to modify network settings (static ip, etc.) see:
+> to modify network settings (static ip, etc.) see:
+> https://linuxconfig.org/setting-a-static-ip-address-in-ubuntu-24-04-via-the-command-line
 
-https://linuxconfig.org/setting-a-static-ip-address-in-ubuntu-24-04-via-the-command-line
-
-system info
+> Optional stuff
 
 ```bash
 neofetch
@@ -166,7 +167,7 @@ echo \
 sudo apt-get update
 ```
 
-should show download.docker.com in the list from the command above
+> should show download.docker.com in the list from the command above
 
 
 ## * install docker
@@ -230,12 +231,11 @@ systemctl --user enable docker-desktop
 sudo apt-get install imagemagick libmagickwand-dev
 ```
 
-verify install
+> verify install
 
 ```bash
 convert -version
 ```
-
 
 ## * install ruby 
 
@@ -259,19 +259,19 @@ sudo gem install rails
 sudo gem install rmagick
 ```
 
-verify install
+> verify install
 
 ```bash
 ruby --version
 ```
 
-used for ruby on rails
+> used for ruby on rails
 
 ```bash
 sudo apt-get install sqlite3
 ```
 
-test
+> test
 
 ```bash
 sqlite3 --version
@@ -279,16 +279,16 @@ sqlite3 --version
 
 ## * create your repo own cloned repo 
 
-goto this link on how to: <br>
-https://docs.spreecommerce.org/developer/getting-started/quickstart#creating-your-spree-repository <br>
+> goto this link on how to: <br>
+> https://docs.spreecommerce.org/developer/getting-started/quickstart#creating-your-spree-repository <br>
 
-download using my cloned repo :
+> download using my cloned repo :
 
 ```bash
 git clone https://github.com/ryogatwo/spree_ecom
 ```
 
-go into dir just dowloaded from git
+> go into dir just dowloaded from git
 
 ```bash
 cd ~/spree_ecom/
@@ -296,7 +296,7 @@ cd ~/spree_ecom/
 ```bash
 rails --version
 ```
-edit file (change in file to 3.0.2 or what shows up in version above and save)
+> edit file (change in file to 3.0.2 or what shows up in version above and save)
 
 ```bash
 nano .ruby-version       
@@ -316,7 +316,7 @@ sudo bundle install
 sudo ./bin/setup
 ```
 
-add sample data to spree  (optional)
+> add sample data to spree  (optional)
 
 ```bash
 sudo rake spree_sample:load
@@ -333,13 +333,14 @@ sudo ./bin/rails s --binding=0.0.0.0
 
 http://localhost:3000/admin
 
-(if used defaults)
-user (admin) = spree@example.com
-pass = spree123
+> (if used defaults)
+> user (admin) = spree@example.com
+> pass = spree123
 
 
 http://localhost:3000/
 
+> DONE!
 
 ```bash
 ponysay --pony trixie  'Ta DA !'
