@@ -209,12 +209,12 @@ systemctl --user start docker-desktop
 ```
 
 
-Note:
-
-At the end of the installation process, apt displays an error due to installing a downloaded package. You can ignore this error message.
-
-N: Download is performed unsandboxed as root, as file '/home/user/Downloads/docker-desktop.deb' 
-couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
+> Note:
+>
+> At the end of the installation process, apt displays an error due to installing a downloaded package. You can ignore this error message.
+>
+> N: Download is performed unsandboxed as root, as file '/home/user/Downloads/docker-desktop.deb' 
+> couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
 
 
 ### enable Docker Desktop to start on sign in,
@@ -279,7 +279,8 @@ sqlite3 --version
 
 ## * create your repo own cloned repo 
 
-goto this link on how to:  https://docs.spreecommerce.org/developer/getting-started/quickstart#creating-your-spree-repository
+goto this link on how to: <br>
+https://docs.spreecommerce.org/developer/getting-started/quickstart#creating-your-spree-repository <br>
 
 download using my cloned repo :
 
@@ -301,9 +302,9 @@ edit file (change in file to 3.0.2 or what shows up in version above and save)
 nano .ruby-version       
 ```
 
-note:
-installed ---- rails 7.1.3.4
-installed ---- ruby 3.0.2p107
+note: <br>
+- installed ---- rails 7.1.3.4 <br>
+- installed ---- ruby 3.0.2p107 <br>
 
 ## * install spree-ecom
 
